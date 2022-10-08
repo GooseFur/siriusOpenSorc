@@ -1,0 +1,16 @@
+G = 6, 67430
+
+
+class SpaceObj:
+    def __init__(self, m, R, x, y, startAccelerationX, startAccelerationY):
+        self.mass = m
+        self.x = x
+        self.y = y
+        self.r = R
+
+        self.Vx = startAccelerationX
+        self.Vy = startAccelerationY
+
+
+class SolarSystem:
+    pass
